@@ -1,0 +1,101 @@
+/*Common sizing for entire page with border-box and margin*/
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px auto;
+}
+
+.container1 {
+    position: relative;
+    max-width: 80%;
+}
+
+
+/*Logo to be placed in left with Float*/
+
+.logo {
+    float: left;
+    max-width: 20%;
+    max-height: 5%;
+}
+
+
+/*Logo to be placed in right with Float*/
+
+.hdr_txt {
+    float: right;
+    margin-top: 5%;
+    width: 60%;
+    font-size: 3vw;
+    font-family: "Helvetica Neue";
+    direction: rtl;
+}
+
+.c1_font {
+    font-size: 2vw;
+    font-family: Times;
+    direction: rtl;
+}
+
+.line {
+    width: 80%;
+    height: 10%;
+    border-bottom: 3px solid #7d97ad;
+}
+
+.container2 {
+    max-width: 80%;
+    max-height: 50%;
+}
+
+
+/*Resizing the image o fit inside the page and container*/
+
+.fs_resize {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.feature_font {
+    font-size: 2vw;
+    font-family: "Book Antiqua";
+    color: #7d97ad;
+}
+
+.container3 {
+    max-width: 80%;
+    max-height: 50%;
+}
+
+.c3_resize {
+    max-height: 70%;
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+
+/*Placing images in same row using inline-block*/
+
+.sibling {
+    display: inline-block;
+    height: auto;
+    width: 33%;
+}
+
+.c3_font {
+    margin-left: 30%;
+    margin-top: 10%;
+    display: block;
+    font-size: 3vw;
+    font-family: Georgia;
+}
+
+.link {
+    margin-top: 5%;
+    font-family: Helvetica;
+    font-size: 1vw;
+    text-align: center;
+    font-style: italic;
+}
