@@ -7,35 +7,31 @@
     margin: 10px auto;
 }
 
+/*Flex container to split logo on the left and Name on the right*/
+
 .container1 {
-    position: relative;
+    display: flex;
+    align-items: flex-start;
     max-width: 80%;
 }
 
-
-/*Logo to be placed in left with Float*/
-
 .logo {
-    float: left;
-    max-width: 20%;
-    max-height: 5%;
+    margin-top: 10%;
+    max-width: 30%;
+    max-height: 10%;
 }
 
-
-/*Logo to be placed in right with Float*/
-
-.hdr_txt {
-    float: right;
+.hdr_font {
     margin-top: 5%;
     width: 60%;
     font-size: 3vw;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", sans-serif;
     direction: rtl;
 }
 
-.c1_font {
+.desg_font {
     font-size: 2vw;
-    font-family: Times;
+    font-family: Times, serif;
     direction: rtl;
 }
 
@@ -50,17 +46,16 @@
     max-height: 50%;
 }
 
+/*Resizing the image to fit inside the page and container*/
 
-/*Resizing the image o fit inside the page and container*/
-
-.fs_resize {
+.main_img_resize {
     max-height: 100%;
     max-width: 100%;
 }
 
 .feature_font {
     font-size: 2vw;
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", monospace;
     color: #7d97ad;
 }
 
@@ -69,12 +64,11 @@
     max-height: 50%;
 }
 
-.c3_resize {
+.art_img_resize {
     max-height: 70%;
     max-width: 70%;
     margin-left: 15%;
 }
-
 
 /*Placing images in same row using inline-block*/
 
@@ -89,12 +83,13 @@
     margin-top: 10%;
     display: block;
     font-size: 3vw;
-    font-family: Georgia;
+    font-family: Georgia, sans-serif;
 }
 
 .link {
+    margin-left: 33%;
     margin-top: 5%;
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     font-size: 1vw;
     text-align: center;
     font-style: italic;
